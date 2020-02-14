@@ -10,7 +10,7 @@
   "scripts": {
     "test": "karma start",
     "start": "lite-server",
-    "stryker": "stryker run & karma start"
+    "stryker": "stryker run && karma start"
   },
   "keywords": [],
   "author": "",
