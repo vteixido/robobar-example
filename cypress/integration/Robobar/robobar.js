@@ -1,8 +1,8 @@
 import { Given } from "cypress-cucumber-preprocessor/steps";
 import { Then} from "cypress-cucumber-preprocessor/steps" 
 import { When } from "cypress-cucumber-preprocessor/steps"
-import robobarFunctions from "./robobarFunctions";
-import robobar from "./robobarFunctions";
+//import robobarFunctions from "./robobarFunctions";
+import robobar from "./robobarFunctions.js";
 
 //Functions
 
@@ -12,8 +12,9 @@ Given('user opens robobar website', () => {
 })
 
 When('user adds a cola', () => {
-    robobar.colaButton().click()
+    robobar.colaButton().click();
 })
+
 
 Then('total should be {string}', (total) => {
     robobar.totalText().should("contain.text", total);
@@ -24,9 +25,19 @@ When('user adds a beer', () => {
 })
 
 When('user adds {int} cola', (n) => {
-    for(i=0; n<i; i++){
+    for(let i=0; i<n; i++) {
         robobar.colaButton().click();
     }
 })
 
+
+Then('total should be €{float}', (total) => {
+    robobar.totalText().should("contain", "€"+total);
+})
+
+
+/*Then('total should be €{float}', (price)=>{
+    cy.get(':nth-child(4) > .ng-binding')
+        .should('contain', "€" + price)
+})*/
 

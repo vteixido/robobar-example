@@ -35,5 +35,6 @@ export default {
     alertAge() {
         return cy.get(':nth-child(2) > :nth-child(1) > .alert');
     }
+    
 }
 
