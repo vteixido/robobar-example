@@ -1,13 +1,13 @@
 pipeline {
     agent any
-    nodeVersion='node-14.18.2'
+    //nodeVersion='node-14.18.2'
     options {
         ansiColor('xtern')
     }
     stages {
         stage('Test') {
            steps {
-             nodejs(nodeVersion) {
+             nodejs('node-14.18.2') {
                  sh 'yarn install'
                  sh 'yarn cy:ci || true '
              }
