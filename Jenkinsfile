@@ -4,8 +4,9 @@ pipeline {
         ansiColor('xtern')
     }
     stages {
-        when { expression{false}}
+
         stage('Test') {
+        when { expression{false}}
            steps {
              nodejs('node-14.18.2') {
                  sh 'yarn install'
