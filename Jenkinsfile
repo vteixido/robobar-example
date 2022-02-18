@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    //nodeVersion='node-14.18.2'
     options {
         ansiColor('xtern')
     }
