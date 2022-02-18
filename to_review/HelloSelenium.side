@@ -1,0 +1,128 @@
+{
+  "id": "aaf8540b-5b29-406a-83b7-e27ad1521bd9",
+  "version": "2.0",
+  "name": "HelloSelenium",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "16b3043e-2484-449d-af8e-f682e9b2a6f7",
+    "name": "GoogleTest",
+    "commands": [{
+      "id": "fa3db740-43c3-4378-a0a2-9d4dbf0d203a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a130549-49f6-4468-9771-ba93357ff6d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1097x1034",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4f7263e-fab0-4dea-9993-3ff7d937c4db",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2650532-509c-4b5c-88ce-a3528daee01e",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "El jue"
+    }, {
+      "id": "1617b4d7-1668-4501-a2e6-b4573c9fce2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl .wM6W7d > span",
+      "targets": [
+        ["css=.sbhl .wM6W7d > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'El juego del calamar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d093e8c-001f-489d-b9f3-f744cadb41bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hlcw0c:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'El juego del calamar - Wikipedia, la enciclopedia libre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b6d030-f3f5-4bf7-96ed-3d88f8bc3c7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#t-upload span",
+      "targets": [
+        ["css=#t-upload span", "css:finder"],
+        ["xpath=//li[@id='t-upload']/a/span", "xpath:idRelative"],
+        ["xpath=//nav[2]/div/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Subir archivo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f31053a1-b0e4-4ff6-a291-60a1cb20132c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hlcw0c:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'El juego del calamar - Wikipedia, la enciclopedia libre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8da88337-a5e0-46da-b610-584a163efc9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stranger Things",
+      "targets": [
+        ["linkText=Stranger Things", "linkText"],
+        ["css=i:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Stranger Things')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[15]/i/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Stranger_Things')]", "xpath:href"],
+        ["xpath=//p[15]/i/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stranger Things')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8aba4d-60f4-4148-9673-6626bb516c77",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "92fd0dde-695c-46d9-9d4e-4c29905a04a4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["16b3043e-2484-449d-af8e-f682e9b2a6f7"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

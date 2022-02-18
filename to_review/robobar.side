@@ -1,0 +1,278 @@
+{
+  "id": "a3fee918-fb0f-4ed6-86f8-b8c2484d4922",
+  "version": "2.0",
+  "name": "robobar",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "2ecd05cc-7c97-4583-a44d-8be1d1d0e530",
+    "name": "TotalCarritoColas",
+    "commands": [{
+      "id": "087ec906-234b-4d43-9898-f34db7e25f8b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d12c97e-212c-4181-b044-58c8861cea03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "973x1095",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8826a561-a269-4316-8c8a-656c99fa93de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee4706a-498a-4344-9005-fe3fb409b89a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€1.25')]", "xpath:innerText"]
+      ],
+      "value": "€1.25"
+    }, {
+      "id": "f6d4b0f5-379e-4fc3-b960-99c31078e73b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e54bd42-d92b-4c3e-bc07-0a826e08c891",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€2.50')]", "xpath:innerText"]
+      ],
+      "value": "€2.50"
+    }, {
+      "id": "9dc96623-034e-444e-bd2c-5138e22afb6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-prepend > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-prepend > .btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a9d8729-3e9d-438c-926c-fc894d64221e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-prepend > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-prepend > .btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea7cc6ea-4d1b-4d6c-bd27-938060621e44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd809341-0f84-46e8-b9ea-a1f854006576",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€2.00')]", "xpath:innerText"]
+      ],
+      "value": "€2.00"
+    }, {
+      "id": "559eb0ad-9236-4b1c-ad5d-66bb4f8bc123",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee1ae6d7-0ebb-4967-955d-9fb0fdc054c1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€4.00')]", "xpath:innerText"]
+      ],
+      "value": "€4.00"
+    }, {
+      "id": "f7c95fe1-ef89-4df5-8c46-309d1bcf202f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-prepend > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-prepend > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d1532c-242d-4b3c-8a6c-30036677a630",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-prepend > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-prepend > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d66dbdb3-13f9-46d0-839b-2a9338d7c713",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e2cbd2d-aa35-4373-83c4-68bac864a908",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€3.00')]", "xpath:innerText"]
+      ],
+      "value": "€3.00"
+    }, {
+      "id": "57d309f2-37b5-4412-accc-4a85b6978557",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bdb2059-aeac-4040-99fb-de151a804b44",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€3.00')]", "xpath:innerText"]
+      ],
+      "value": "€6.00"
+    }, {
+      "id": "4fbe518f-c74d-456c-a594-d1e6662762e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-prepend > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-prepend > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e893e72f-fe3f-4a85-bde0-0e0daa38c60b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-prepend > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-prepend > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca51a6fd-1d04-4bec-835b-86a968c249d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c32c7e6e-406f-47bb-a604-c3bdc771b20e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02abab18-bc04-4947-a6e7-5fa24d7b2793",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€3.00')]", "xpath:innerText"]
+      ],
+      "value": "€3.25"
+    }, {
+      "id": "eaf0a9dc-c4c1-41da-8cd9-cc4278d82fbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7aa1717-f71a-41bb-b4d8-724daf243fa7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€3.00')]", "xpath:innerText"]
+      ],
+      "value": "€6.25"
+    }]
+  }],
+  "suites": [{
+    "id": "086e7c64-1186-4a9c-83b9-f9b185691e95",
+    "name": "RoboBarSuit",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ecd05cc-7c97-4583-a44d-8be1d1d0e530"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
